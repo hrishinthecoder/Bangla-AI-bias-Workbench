@@ -1,0 +1,5 @@
+# Keep the frozen data files byte for byte: no line-ending conversion, so checksums match the laptop copies.
+*.json -text
+*.jsonl -text
+*.csv -text
+*.txt text eol=lf

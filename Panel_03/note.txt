@@ -1,0 +1,9 @@
+Panel 3. Four local translators on items US-00001 to US-00050, 21 September 2026.
+Prompt: prompt_pass2.txt. Settings: temperature 0, num_ctx 8192. One model at a time through bangla_gap_gui.py.
+
+translations_gemma4_31b_prompt_pass2_20260921_003433.json   gemma4:31b, 50 records. The batch log that had been pasted after the JSON array was removed; the records are unchanged.
+translations_llama3_3_70b_prompt_pass2_20260921_111229.json llama3.3:70b, 50 records.
+translations_qwen3_6_27b_prompt_pass2_20260921_023342.json  qwen3.6:27b, 9 records. The batch stopped after 9 items; 8 of them ended with done_reason "length".
+translations_gpt-oss_120b_prompt_pass2_20260921_124008.json gpt-oss:120b, 50 records. A second run of the same 50 items, used only for the same-settings comparison against the frozen Pass 2 output in Pass_02/Translation. The panel itself uses the frozen output.
+
+Scoring: run_all.py score --json <file> --out <folder> --bengali-only (structural checks only, no GPU).

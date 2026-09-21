@@ -1,0 +1,184 @@
+[
+  {
+    "item_id": "US-00001",
+    "answer": "D",
+    "answer_text": "Pin sleeve to the shirt",
+    "n_options": 6,
+    "meta_info": "step2",
+    "model": "qwen3.6:27b",
+    "prompt_file": "prompt_pass2.txt",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seconds": 251.4,
+    "timing": "load 0.2s, 6149 tokens at 25.0 per second",
+    "done_reason": "length",
+    "problems": [
+      "stopped_length",
+      "option_count_0_vs_6",
+      "answer_option_missing_D"
+    ],
+    "english": "A 4670-g (10-lb 5-oz) male newborn is delivered at term to a 26-year-old woman after prolonged labor. Apgar scores are 9 and 9 at 1 and 5 minutes. Examination in the delivery room shows swelling, tenderness, and crepitus over the left clavicle. There is decreased movement of the left upper extremity. Movement of the hands and wrists are normal. A grasping reflex is normal in both hands. An asymmetric Moro reflex is present. The remainder of the examination shows no abnormalities and an anteroposterior x-ray confirms the diagnosis. Which of the following is the most appropriate next step in management?\nA. Nerve conduction study\nB. Surgical fixation\nC. Physical therapy\nD. Pin sleeve to the shirt\nE. Splinting of the arm\nF. MRI of the clavicle",
+    "bangla": "ITEM_ID: US-00001\nQUESTION: দীর্ঘস্থায়ী প্রসব বেদনার পর ২৬ বছর বয়সী এক নারীর পূর্ণকালীন গর্ভাবস্থায় ৪৬৭০ গ্রাম (১০ পাউন্ড ৫ আউন্স) ওজনের এক পুরুষ নবজাতক জন্মগ্রহণ করে। ১ এবং ৫ মিনিটে অ্যাপগার স্কোর যথাক্রমে ৯ এবং ৯। প্রসব কক্ষে পরীক্ষায় বাম কলাকান্ডের উপর ফোলাভাব, স্পর্শবেদনা এবং ক্রেপিটাস দেখা যায়। বাম উপরের অগ্রভাগের গতি কমে গেছে। হাত এবং ক",
+    "error": ""
+  },
+  {
+    "item_id": "US-00002",
+    "answer": "F",
+    "answer_text": "Acute myelogenous leukemia",
+    "n_options": 6,
+    "meta_info": "step2",
+    "model": "qwen3.6:27b",
+    "prompt_file": "prompt_pass2.txt",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seconds": 253.4,
+    "timing": "load 0.2s, 6042 tokens at 24.4 per second",
+    "done_reason": "length",
+    "problems": [
+      "empty_output"
+    ],
+    "english": "A 66-year-old man comes to the physician for a 3-month history of fatigue. He has hypertension and hyperlipidemia. He had a transient ischemic attack 3 years ago. He drinks 3 beers a day, and sometimes a couple more on social occasions. He currently takes aspirin, simvastatin, hydrochlorothiazide, and metoprolol. His temperature is 37.1°C (98.8°F), pulse is 78, respirations are 19/min, and oxygen saturation on room air is 97%. He is in no distress but shows marked pallor and has multiple pinpoint, red, nonblanching spots on his extremities. On palpation, his spleen is significantly enlarged. Laboratory studies show a hemoglobin of 8.0 g/dL, a leukocyte count of 80,000/mm3, and a platelet count of 34,000/mm3. A blood smear shows immature cells with large, prominent nucleoli and pink, elongated, needle-shaped cytoplasmic inclusions. Which of the following is the most likely diagnosis?\nA. Cirrhosis\nB. Acute lymphoblastic leukemia\nC. Chronic myelogenous leukemia\nD. Myelodysplastic syndrome\nE. Chronic lymphocytic leukemia\nF. Acute myelogenous leukemia",
+    "bangla": "",
+    "error": ""
+  },
+  {
+    "item_id": "US-00003",
+    "answer": "E",
+    "answer_text": "Dementia",
+    "n_options": 7,
+    "meta_info": "step2",
+    "model": "qwen3.6:27b",
+    "prompt_file": "prompt_pass2.txt",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seconds": 252.2,
+    "timing": "load 0.3s, 6033 tokens at 24.5 per second",
+    "done_reason": "length",
+    "problems": [
+      "empty_output"
+    ],
+    "english": "A 40-year-old man comes to the physician because of a 5-month history of watery diarrhea and episodic crampy abdominal pain. He has no fever, nausea, or vomiting. Over the past 6 months, he has had a 1.8-kg (4-lb) weight loss, despite experiencing no decrease in appetite. His wife has noticed that sometimes his face and neck become red after meals or when he is in distress. A year ago, he was diagnosed with asthma. He has hypertension. Current medications include an albuterol inhaler and enalapril. He drinks one beer daily. His temperature is 36.7°C (98°F), pulse is 85/min, and blood pressure is 130/85 mm Hg. The lungs are clear to auscultation. A grade 2/6 systolic murmur is heard best at the left sternal border and fourth intercostal space. The abdomen is soft, and there is mild tenderness to palpation with no guarding or rebound. The remainder of the physical examination shows no abnormalities. A complete blood count is within the reference range. Without treatment, this patient is at greatest risk for which of the following conditions?\nA. Asphyxia\nB. Achlorhydria\nC. T-cell lymphoma\nD. Megaloblastic anemia\nE. Dementia\nF. Intestinal fistula\nG. Arthritis",
+    "bangla": "",
+    "error": ""
+  },
+  {
+    "item_id": "US-00004",
+    "answer": "E",
+    "answer_text": "Perform emergency laparotomy",
+    "n_options": 6,
+    "meta_info": "step2",
+    "model": "qwen3.6:27b",
+    "prompt_file": "prompt_pass2.txt",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seconds": 249.9,
+    "timing": "load 0.3s, 6122 tokens at 25.0 per second",
+    "done_reason": "length",
+    "problems": [
+      "stopped_length",
+      "option_count_0_vs_6",
+      "answer_option_missing_E"
+    ],
+    "english": "A 4-year-old boy is brought to the emergency department because of severe abdominal pain and bilious vomiting for 6 hours. He has not had bowel movements in the past 24 hours. He appears ill. His temperature is 37.8°C (100°F) and pulse is 122/min. Examination shows a distended abdomen. There is tenderness to palpation in the lower abdomen; guarding and rebound tenderness are present. Bowel sounds are decreased. An x-ray of the abdomen shows dilated loops of bowel. He has been accompanied by his 14-year-old brother. The surgeon recommends an emergency laparotomy. The parents are away visiting friends and cannot be reached. Which of the following is the most appropriate next best step in management?\nA. Get consent from the patient's brother\nB. Get consent from the patient\nC. Obtain a court order for surgery\nD. Schedule hospital ethics consult\nE. Perform emergency laparotomy\nF. Delay surgery until parental consent",
+    "bangla": "ITEM_ID: US-00004\nQUESTION: ৪ বছর বয়সী এক ছেলেকে তীব্র পেটের ব্যথা এবং ৬ ঘণ্টা ধরে পিত্তযুক্ত বমি করার কারণে জরুরি বিভাগে আনা হয়েছে। গত ২৪ ঘণ্টায় তার কোনো মলত্যাগ হয়নি। সে অসুস্থ বলে মনে হচ্ছে। তার শরীরের তাপমাত্রা ৩৭.৮ ডিগ্রি সেলসিয়াস (১০০ ডিগ্রি ফারেনহাইট) এবং পালস ১২২ প্রতি মিনিট। পরীক্ষায় ফুলে থাকা পেট দেখা গেছে। নিচের পেটে স্পর্শ করলে ব্যথা হয়; গার্ডিং এবং রিবাউন্ড টেন্ডারনেস উপ",
+    "error": ""
+  },
+  {
+    "item_id": "US-00005",
+    "answer": "C",
+    "answer_text": "Trochlear nerve damage",
+    "n_options": 6,
+    "meta_info": "step2",
+    "model": "qwen3.6:27b",
+    "prompt_file": "prompt_pass2.txt",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seconds": 230.4,
+    "timing": "load 0.3s, 6010 tokens at 26.8 per second",
+    "done_reason": "length",
+    "problems": [
+      "empty_output"
+    ],
+    "english": "A 9-year-old girl is brought to the emergency department with a headache and double vision 1 hour after being hit on the head while playing with a friend. Her friend's elbow struck her head, just above her left ear. She did not lose consciousness, but her mother reports that she was confused for 20 minutes after the incident and did not recall being hit. She appears healthy. She is alert and oriented to person, place, and time. Her temperature is 37.2°C (99°F), pulse is 86/min, respirations are 15/min, and blood pressure is 118/78 mmHg. Examination shows the head tilted toward the right shoulder. A photograph of the eyes at primary gaze is shown. There is mild tenderness to palpation over the left temporal bone. Visual acuity is 20/20 in both eyes when tested independently. The patient's left eye hypertropia worsens with right gaze and when the patient tilts her head toward her left shoulder. The pupils are equal and reactive to light. Muscle strength and sensation are intact bilaterally. Deep tendon reflexes are 2+ bilaterally. Plantar reflex shows a flexor response. Which of the following is the most likely cause of this patient's ocular symptoms?\nA. Oculomotor nerve damage\nB. Retrobulbar hemorrhage\nC. Trochlear nerve damage\nD. Medial longitudinal fasciculus damage\nE. Dorsal midbrain damage\nF. Abducens nerve damage",
+    "bangla": "",
+    "error": ""
+  },
+  {
+    "item_id": "US-00006",
+    "answer": "C",
+    "answer_text": "Normal development",
+    "n_options": 6,
+    "meta_info": "step2",
+    "model": "qwen3.6:27b",
+    "prompt_file": "prompt_pass2.txt",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seconds": 247.4,
+    "timing": "load 0.3s, 6047 tokens at 25.0 per second",
+    "done_reason": "stop",
+    "problems": [],
+    "english": "A mother brings her 3-year-old son to his pediatrician because he is having tantrums. The boy has no history of serious illness and is on track with developmental milestones. His mother recently returned to work 2 weeks ago. She explains that, since then, her son has had a tantrum roughly every other morning, usually when she is getting him dressed or dropping him off at daycare. He cries loudly for about 5 minutes, saying that he does not want to go to daycare while thrashing his arms and legs. According to the daycare staff, he is well-behaved during the day. In the evenings, he has tantrums about twice per week, typically when he is told he must finish his dinner or that it is time for bed. These tantrums have been occurring for about 6 months. The mother is concerned her son may have a behavioral disorder. Which of the following is the most likely cause of the boy's behavior?\nA. Autism spectrum disorder\nB. Conduct disorder\nC. Normal development\nD. Oppositional defiant disorder\nE. Attention deficit hyperactivity disorder\nF. Disruptive mood dysregulation disorder",
+    "bangla": "ITEM_ID: US-00006\nQUESTION: একজন মা তার ৩ বছর বয়সী ছেলেকে শিশু বিশেষজ্ঞের কাছে নিয়ে আসেন কারণ সে ট্যানট্রাম করছে। ছেলেটির কোনো গুরুতর রোগের ইতিহাস নেই এবং তার বিকাশের মাইলফলকগুলো স্বাভাবিক গতিতে অগ্রসর হচ্ছে। তার মা সম্প্রতি ২ সপ্তাহ আগে কাজে ফিরে এসেছেন। তিনি ব্যাখ্যা করেন যে, সেই সময় থেকে, তার ছেলে প্রায় প্রতিটি সকালে ট্যানট্রাম করছে, সাধারণত যখন তিনি তাকে পোশাক পরাচ্ছেন বা ডে-কেয়ারে নামিয়ে দিচ্ছেন। সে প্রায় ৫ মিনিট ধরে জোরে কাঁদে, ডে-কেয়ারে যেতে না চাইলে তার হাত-পা ছুঁড়তে থাকে। ডে-কেয়ারের কর্মীদের মতে, দিনের বেলা সে ভালো আচরণ করে। সন্ধ্যায়, সে সপ্তাহে প্রায় দুইবার ট্যানট্রাম করে, সাধারণত যখন তাকে বলা হয় যে তাকে রাতের খাবার শেষ করতে হবে বা ঘুমানোর সময় হয়েছে। এই ট্যানট্রামগুলো প্রায় ৬ মাস ধরে চলছে। মা উদ্বিগ্ন যে তার ছেলের আচরণগত ব্যাধি হতে পারে। নিচের কোনটি ছেলেটির আচরণের সবচেয়ে সম্ভাব্য কারণ?\nA: অটিজম স্পেকট্রাম ডিজঅর্ডার\nB: কন্ডাক্ট ডিজঅর্ডার\nC: স্বাভাবিক বিকাশ\nD: অপোজিশনাল ডিফিয়েন্ট ডিজঅর্ডার\nE: অ্যাটেনশন ডিফিসিট হাইপারঅ্যাকটিভিটি ডিজঅর্ডার\nF: ডিস্রাপ্টিভ মুড ডিসরেগুলেশন ডিজঅর্ডার",
+    "error": ""
+  },
+  {
+    "item_id": "US-00007",
+    "answer": "F",
+    "answer_text": "Reduce fish intake",
+    "n_options": 8,
+    "meta_info": "step2",
+    "model": "qwen3.6:27b",
+    "prompt_file": "prompt_pass2.txt",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seconds": 250.8,
+    "timing": "load 0.2s, 6122 tokens at 24.9 per second",
+    "done_reason": "length",
+    "problems": [
+      "empty_output"
+    ],
+    "english": "A 45-year-old man comes to the physician because of severe left knee pain and swelling. He has hypercholesterolemia and hypertension. Current medications include pravastatin and captopril. He eats a low-fat diet that includes fish and leafy green vegetables. He drinks 4–6 cups of coffee daily. He has smoked one pack of cigarettes daily for 26 years and drinks 2–3 beers daily. Vital signs are within normal limits. Examination of the left knee shows swelling, warmth, and severe tenderness to palpation. Arthrocentesis is performed. Gram stain is negative. Analysis of the synovial fluid shows monosodium urate crystals. Which of the following health maintenance recommendations is most appropriate to prevent symptom recurrence?\nA. Discontinue captopril\nB. Start aspirin\nC. Replace beer with red wine\nD. Stop smoking\nE. Reduce coffee intake\nF. Reduce fish intake\nG. Discontinue pravastatin\nH. Start colchicine\n\"",
+    "bangla": "",
+    "error": ""
+  },
+  {
+    "item_id": "US-00008",
+    "answer": "D",
+    "answer_text": "Plasma exchange therapy",
+    "n_options": 8,
+    "meta_info": "step2",
+    "model": "qwen3.6:27b",
+    "prompt_file": "prompt_pass2.txt",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seconds": 242.7,
+    "timing": "load 0.3s, 5974 tokens at 25.2 per second",
+    "done_reason": "length",
+    "problems": [
+      "empty_output"
+    ],
+    "english": "A previously healthy 32-year-old man is brought to the emergency department by his girlfriend after having a seizure. Earlier that day, he also experienced a nosebleed that took 30 minutes to stop when applying pressure. He has had no sick contacts or history of epilepsy or other seizure disorder. He does not take any medications. His temperature is 39.1 °C (102.4 °F), pulse is 106/min, respirations are 26/min, and blood pressure is 128/70 mm Hg. He is confused and disoriented. Examination shows pallor and scattered petechiae over the trunk and arms. The neck is supple, and neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 9 g/dL\nLeukocyte count 8,200/mm3\nPlatelet count 34,000/mm3\nProthrombin time 13 seconds\nPartial thromboplastin time 30 seconds\nFibrin split products negative\nSerum\nCreatinine 2.9 mg/dL\nBilirubin\nTotal 3.2 mg/dL\nDirect 0.4 mg/dL\nLactate dehydrogenase 559 U/L\nA peripheral blood smear shows numerous schistocytes. Which of the following is the most appropriate next step in management?\"\nA. Electroencephalography\nB. Transfusion of packed red blood cells\nC. CT scan of the head\nD. Plasma exchange therapy\nE. Fresh frozen plasma transfusion\nF. MRI scan of the head\nG. Platelet transfusion\nH. Intravenous tranexamic acid\n\"",
+    "bangla": "",
+    "error": ""
+  },
+  {
+    "item_id": "US-00009",
+    "answer": "A",
+    "answer_text": "Acute tubulointerstitial nephritis",
+    "n_options": 7,
+    "meta_info": "step2",
+    "model": "qwen3.6:27b",
+    "prompt_file": "prompt_pass2.txt",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seconds": 248.5,
+    "timing": "load 0.3s, 6056 tokens at 25.0 per second",
+    "done_reason": "length",
+    "problems": [
+      "empty_output"
+    ],
+    "english": "A 67-year-old man comes to the emergency department for the evaluation of two episodes of red urine since this morning. He has no pain with urination. He reports lower back pain and fever. Six months ago, he was diagnosed with osteoarthritis of the right knee that he manages with 1–2 tablets of ibuprofen per day. He has smoked one pack of cigarettes daily for the past 45 years. He does not drink alcohol. His temperature is 38.5°C (101.3°F), pulse is 95/min, and blood pressure is 130/80 mm Hg. Physical examination shows faint, diffuse maculopapular rash, and bilateral flank pain. The remainder of the examination shows no abnormalities. Urinalysis shows:\nBlood +3\nProtein +1\nRBC 10–12/hpf\nRBC cast negative\nEosinophils numerous\nWhich of the following is the most likely diagnosis?\"\nA. Acute tubulointerstitial nephritis\nB. Acute pyelonephritis\nC. Acute glomerulonephritis\nD. Crystal-induced acute kidney injury\nE. Renal cell carcinoma\nF. Henoch–Schönlein purpura\nG. Acute tubular necrosis",
+    "bangla": "",
+    "error": ""
+  }
+]

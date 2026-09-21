@@ -1,0 +1,16 @@
+Translate the following medical exam item from English into Bangla -
+Bangladeshi Bangla.
+Output exactly this structure and nothing else:
+
+ITEM_ID: <copy the id unchanged>
+QUESTION: <Bangla translation>
+A: <Bangla translation>
+B: <Bangla translation>
+C: <Bangla translation>
+D: <Bangla translation>
+In this way upto the number of options
+
+Keep the option labels as A, B, C and D in Latin letters.
+Do not answer the question. Do not explain. Do not add notes.
+
+{text}
