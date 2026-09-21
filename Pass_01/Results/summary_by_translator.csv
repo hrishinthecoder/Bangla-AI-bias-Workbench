@@ -1,0 +1,24 @@
+﻿check,gpt-oss:120b
+records,500
+precomposed chars (items),28 (24)
+option count mismatch (items),1
+items with other-script letters,10
+items with untranslated English (words),45 (87)
+English gloss words,53
+items with a hard number miss,25
+items with a soft number miss,15
+items with duplicate options,0
+items with length z beyond 3.5,7
+items with option_swap,34
+items with any hard flag,102
+consensus chrF mean,n/a (1 translator)
+round-trip chrF mean (min),71.5 (11.2)
+cometkiwi_mean (mean over items),0.821
+cometkiwi_min (mean over items),0.714
+metricx_err_mean (mean over items),1.783
+metricx_err_max (mean over items),5.303
+labse_mean (mean over items),0.777
+labse_min (mean over items),0.612
+decision PASS,395
+decision FLAG,102
+decision REVIEW,3

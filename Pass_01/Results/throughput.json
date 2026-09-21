@@ -1,0 +1,15 @@
+{
+  "cpu_steps_1_to_5_min": 0.04,
+  "cometkiwi_min": 4.9,
+  "metricx_min": 12.4,
+  "labse_min": 0.82,
+  "option_swap_min": 0.1,
+  "records": 500,
+  "projection_hours_per_12000_items_one_translator": {
+    "cpu_steps_1_to_5_min": 0.0,
+    "cometkiwi_min": 2.0,
+    "metricx_min": 5.0,
+    "labse_min": 0.3,
+    "option_swap_min": 0.0
+  }
+}

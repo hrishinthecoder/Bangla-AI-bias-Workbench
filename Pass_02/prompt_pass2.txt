@@ -1,0 +1,30 @@
+Translate the following medical exam item from English into Bangla -
+Bangladeshi Bangla.
+Output exactly this structure and nothing else:
+
+ITEM_ID: <copy the id unchanged>
+QUESTION: <Bangla translation>
+A: <Bangla translation>
+B: <Bangla translation>
+C: <Bangla translation>
+D: <Bangla translation>
+In this way upto the number of options
+
+The labels are structure, not translation. ITEM_ID:, QUESTION: and the option labels A: to F: stay exactly as written, in Latin letters. Everything after a label is Bangla.
+Do not answer the question. Do not explain. Do not add notes.
+
+Follow these rules:
+
+1. Translate every sentence of the question in order. Do not shorten, summarise or drop any sentence, list line or laboratory value. The Bangla must contain everything the English contains.
+2. Write every number in Bengali digits (০১২৩৪৫৬৭৮৯). Keep every number, including values in parentheses such as (101.3°F) and ranges such as 10-15. Roman numerals become Bengali digits: grade III গ্রেড ৩, cranial nerves II-XII করোটিক স্নায়ু ২ থেকে ১২.
+3. Write every unit as a Bangla word. No Latin letters in units: mg মিলিগ্রাম, g গ্রাম, kg কেজি, µg মাইক্রোগ্রাম, mL মিলিলিটার, dL ডেসিলিটার, L লিটার, µL মাইক্রোলিটার, mm মিলিমিটার, cm সেন্টিমিটার, m মিটার, mm3 ঘন মিলিমিটার, mm Hg মিমি পারদ, mEq/L মিলিইকুইভ্যালেন্ট/লিটার, mmol/L মিলিমোল/লিটার, IU আইইউ, U/L ইউনিট/লিটার, /hpf প্রতি হাই-পাওয়ার ফিল্ড, /min প্রতি মিনিট, °C ডিগ্রি সেলসিয়াস, °F ডিগ্রি ফারেনহাইট, lb পাউন্ড, oz আউন্স, ft ফুট, in ইঞ্চি. The signs % and / stay as they are: ৪৫%, মিলিগ্রাম/ডেসিলিটার.
+4. Write chemical symbols as Bangla names: Na+ সোডিয়াম, K+ পটাশিয়াম, Cl- ক্লোরাইড, HCO3- বাইকার্বনেট, Ca2+ ক্যালসিয়াম, Mg2+ ম্যাগনেসিয়াম, PO4 ফসফেট, CO2 কার্বন ডাই-অক্সাইড, O2 অক্সিজেন, pH পিএইচ, PaCO2 ধমনীর কার্বন ডাই-অক্সাইড চাপ, PaO2 ধমনীর অক্সিজেন চাপ. Greek letters become their Bangla names: α আলফা, β বিটা, γ গামা, δ ডেল্টা, μ মিউ.
+5. Write laboratory tests, clinical scores, gene and receptor symbols, ECG leads and heart sounds in Bengali script by transliterating the letters, digits in Bengali: WBC ডব্লিউবিসি, RBC আরবিসি, CBC সিবিসি, Hb হিমোগ্লোবিন, MCV এমসিভি, ESR ইএসআর, CRP সিআরপি, ALT এএলটি, AST এএসটি, BUN বিইউএন, INR আইএনআর, PT পিটি, PTT পিটিটি, LDH এলডিএইচ, BMI বিএমআই, GCS জিসিএস, HbA1c এইচবিএওয়ানসি, TSH টিএসএইচ, T3 টি৩, T4 টি৪, LDL এলডিএল, HDL এইচডিএল, hCG এইচসিজি, FSH এফএসএইচ, LH এলএইচ, PTH পিটিএইচ, ACTH এসিটিএইচ, IgA আইজিএ, IgG আইজিজি, IgM আইজিএম, CD4 সিডি৪, HLA-B27 এইচএলএ-বি২৭, D-dimer ডি-ডাইমার, dsDNA ডিএসডিএনএ, ANCA এএনসিএ, ADAMTS13 এডামটিএস১৩, CFTR সিএফটিআর, FEV1 এফইভি১, FVC এফভিসি, S3 এস৩, aVF এভিএফ, V1 ভি১. Scores, scales and signs that are names are written in Bengali script: Apgar score অ্যাপগার স্কোর, Glasgow Coma Scale গ্লাসগো কোমা স্কেল, Bishop score বিশপ স্কোর, Tanner stage ট্যানার স্টেজ, Moro reflex মোরো রিফ্লেক্স, Babinski sign বাবিনস্কি সাইন.
+6. Write imaging, procedure and everyday medical abbreviations in Bengali script, the way they are spoken in Bangladesh: CT সিটি, MRI এমআরআই, ECG ইসিজি, EEG ইইজি, X-ray এক্স-রে, ICU আইসিইউ, TB টিবি, HIV এইচআইভি, COPD সিওপিডি, PTSD পিটিএসডি, PCR পিসিআর, DNA ডিএনএ. Translate IV meaning intravenous as শিরাপথে (IV as a Roman numeral, such as grade IV, becomes ৪ under rule 2) and NG tube as নাসোগ্যাস্ট্রিক টিউব.
+7. Write drug names, organism names and obstetric terms in Bengali script by transliteration, never in Latin letters: metformin মেটফরমিন, amoxicillin অ্যামোক্সিসিলিন, ceftriaxone সেফট্রায়াক্সোন, Chlamydia trachomatis ক্ল্যামাইডিয়া ট্র্যাকোমাটিস, Treponema pallidum ট্রেপোনেমা প্যালিডাম, gravida গ্র্যাভিডা, para প্যারা.
+8. Use the standard Bangla medical name for a disease when one exists: hypertension উচ্চ রক্তচাপ, diabetes mellitus ডায়াবেটিস, fever জ্বর, cough কাশি, pneumonia নিউমোনিয়া, asthma হাঁপানি, jaundice জন্ডিস, tuberculosis যক্ষ্মা, measles হাম, chickenpox জলবসন্ত, mumps মাম্পস, tetanus ধনুষ্টংকার, rabies জলাতঙ্ক, malaria ম্যালেরিয়া, dengue ডেঙ্গু, stroke স্ট্রোক, epilepsy মৃগী, gout গেঁটে বাত, rheumatic fever বাতজ্বর, anaemia রক্তশূন্যতা, obesity স্থূলতা, malnutrition অপুষ্টি, infertility বন্ধ্যাত্ব, depression বিষণ্ণতা, burns পোড়া. For any other disease, transliterate the English name into Bengali script. Never replace a disease name with a symptom or a folk name: urinary tract infection is not প্রস্রাবে জ্বালাপোড়া, vitamin A deficiency is not রাতকানা, osteoarthritis is not বাত, peptic ulcer disease is not গ্যাস্ট্রিক.
+9. Do not add English words in parentheses after Bangla words. No glosses.
+10. The translation is Bengali script only. The only Latin letters in the whole output are the structure labels named above (ITEM_ID:, QUESTION:, A: to F:). Anything you cannot translate, transliterate into Bengali script. No Devanagari, Gurmukhi, Greek or any other script.
+11. Anatomy and everyday clinical words are translated into Bangla.
+
+{text}

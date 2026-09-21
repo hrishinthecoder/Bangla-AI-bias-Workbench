@@ -1,0 +1,23 @@
+﻿field,value,meaning
+tier,D0,"Wording differs, clinical content identical."
+tier,D1,"Register or word order changed, no clinical fact changed."
+tier,D2,"A clinical fact changed (number, negation, drug or disease, dropped clause, changed option)."
+tier,D3,The Bangla supports a different option than the answer key.
+fluency,5,Natural Bangla. Nothing marks it as translated.
+fluency,4,"Slightly stiff or over-formal, but correct. A native speaker would not stumble."
+fluency,3,Clearly translated. Word order or phrasing follows the English. Still understood on one reading.
+fluency,2,"Hard to read. It needs a second pass, or a sentence has to be guessed at."
+fluency,1,"Not usable Bangla. Broken grammar, wrong script, or English in place of Bangla."
+acceptable,yes/no,Whether the item is acceptable as it is.
+tag (meaning changed),number,"A number, dose, lab value, unit, age, sex, side or duration is missing, changed or misplaced."
+tag (meaning changed),negation,A negative was dropped or added. No fever becomes fever.
+tag (meaning changed),drug_or_disease,A drug or condition name became a different drug or condition.
+tag (meaning changed),clause_dropped,A clinical clause in the English is missing from the Bangla.
+tag (meaning changed),option_changed,"An option now reads like a different option, or points at a different answer."
+tag (meaning changed),other_fact,The meaning changed in a way no other tag covers. Describe it in the note column.
+tag (translator problem),untranslated,English left in the Bangla outside parentheses.
+tag (translator problem),gloss,The English term added in parentheses after the Bangla term.
+tag (translator problem),script,"Letters from another script, or a visible encoding defect."
+tag (translator problem),option_missing,The Bangla has fewer options than the English.
+how to rate,order,"Rate fluency with the English out of view. Then read the English, then set the tier and the tags."
+how to rate,tags,"Separate several tags with a semicolon, for example number;clause_dropped. Leave empty when nothing applies."
